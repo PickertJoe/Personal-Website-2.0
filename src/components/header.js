@@ -2,6 +2,14 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+const navLinks = [
+  { title: `about me`, path: `/about` },
+  { title: `work`, path: `/work` },
+  { title: `blog`, path: `/blog` },
+  { title: `contact`, path: `/contact` },
+  { title: `contact`, path: `/contact` },
+]
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
